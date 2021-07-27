@@ -1,0 +1,2 @@
+com/example/androidmodule2lesson6task2patientdb/BuildConfig.java
+ com.example.androidmodule2lesson6task2patientdb.BuildConfig

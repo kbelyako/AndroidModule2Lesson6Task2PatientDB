@@ -1,0 +1,4 @@
+#Tue Jul 27 19:52:53 ALMT 2021
+base.0=D\:\\AndroidDev\\Module2\\Code\\AndroidModule2Lesson6Task2PatientDB\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
