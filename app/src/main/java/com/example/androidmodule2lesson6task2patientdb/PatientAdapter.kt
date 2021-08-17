@@ -19,7 +19,8 @@ class PatientAdapter(val patients:ArrayList<Patient>, val context:Context, val c
         holder.imgAva.setImageBitmap(patients[position].avatar)
         holder.name.text=patients[position].name
         holder.lastName.text=patients[position].lastName
-        holder.lastName.text=patients[position].Sex
+        holder.sex.text=patients[position].Sex
+        holder.age.text=patients[position].Age
    //     holder.details.text=patients[position].details
         holder.root.setOnClickListener{callBack.onItemSelected(position)}
     }
@@ -34,7 +35,7 @@ class ViewHolder(itemView:View):RecyclerView.ViewHolder(itemView){
     val name=itemView.tvNameList
     val lastName=itemView.tvLastNameList
     val sex=itemView.tvSex
-   // val details=itemView.tvDetails
+    val age=itemView.tvAge
     val root = itemView.clItemRoot
 
 }

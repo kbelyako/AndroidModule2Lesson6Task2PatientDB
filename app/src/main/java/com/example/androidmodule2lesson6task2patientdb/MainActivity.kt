@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
       supportFragmentManager
             .beginTransaction()
-            .addToBackStack(null)
             .replace(R.id.flList,ListFragment.newInstance("aa","aa"))
+            .addToBackStack(null)
             .commit()
         /*
                supportFragmentManager
